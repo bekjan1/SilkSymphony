@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+p{
+  font-size: 20px;
+  line-height: 20px;
+}
+h4{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+
+
+}
+a{
+  h6{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 134.77%;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.67);
+
+
+  }
+  h5{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 134.77%;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.37);
+
+
+  }
+}
+button{
+  width: 214px;
+  height: 69px;
+  background: #8E5151;
+  border-radius: 90px;
+  color: #FFFFFF;
+}
+.b-g-h{
+  background: #8E5151;
+}
+.h-h100{
+  height: 100px;
+}
+.d-f{
+  display: flex;
+}
+.d-f-jc-f-e{
+  display: flex;
+  justify-content: flex-end;
+}
+.d-f-jc-c{
+  display: flex;
+  justify-content: center;
+}
+.d-f-ai-c{
+  display: flex;
+  align-items: center;
+}
+.d-f-d-c{
+  display: flex;
+  flex-direction: column;
+}
+.d-f-s-b{
+  display: flex;
+  justify-content: space-between;
+}
+.d-f-s-a{
+  display: flex;
+  justify-content: space-around;
+}
+.ml30{
+  margin-left: 30px;
+}
+.ml-l30{
+  margin: 0 30px 0 30px;
+}
+.m30{
+  margin: 30px;
+}
+.ml50{
+  margin-left: 50px;
+}
+.mr30{
+  margin-right: 30px;
+}
+.mt30{
+  margin-top: 30px;
+  fill: #000000;
+}
+.mt10{
+  margin-top: 5px;
+}
+.mt15{
+  margin-top: 15px;
+}
+.mt100{
+  margin-top: 150px;
+}
+.pb200{
+  padding-bottom: 180px;
+}
+.pb100{
+  padding-bottom: 100px;
+}
+.ml100{
+   margin-left: 25%;
+ }
+.section-2{
+    .window{
+      width: 350px;
+      background: #FFFFFF;
+      opacity: 0.9;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      box-sizing: border-box;
+      border-radius: 90px;
+    }
+  .ml100{
+    margin-left: 25%;
+    width: 700px;
+    height: 320px;
+  }
+}
+.section-3{
+  .ml100{
+    margin-left: 25%;
+    width: 700px;
+    height: 320px;
+  }
+}
+.section-4{
+  .ml100{
+    margin-left: 25%;
+    width: 700px;
+    height: 320px;
+  }
+}
+footer{
+  background: #8E5151;
+}
+.mt-b50{
+  margin: 50px 0 50px ;
+}
+h4{
+  font-size: 18px;
+  color: #FFFFFF;
+}
+header{
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  .navbar{
+    height: 100%;
+
+    .butt{
+      outline: none;
+      border-radius: 90px;
+      height: 50px;
+    }
+
+    .end{
+      position: absolute;
+      top: 10px;
+      left: 8px;
+    }
+  }
+
+  .ml100{
+    margin: 100px ;
+  }
+}
+.js1{
+  .swiper-container {
+    width: 800px;
+    height: 400px;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .swiper-pagination-bullet{
+    opacity: unset;
+  }
+  .swiper-pagination-bullet-active{
+    opacity: unset;
+  }
+}
+.section-1{
+  .section1{
+    margin-bottom: 50px;
+  }
+
+  h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 134.77%;
+    color: #FFFFFF;
+
+
+  }
+  .pos-a{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+
+  }
+}
+.b-g-b{
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+}
+body{
+    background: #e9bdba;
+}
+.br-1{
+  border: 5px solid #00000080
+}
+.section5{
+  .mt30{
+    width: 200px;
+  }
+  .box{
+    width: 45px;
+    height: 45px;
+  }
+  .box1{
+    background: #FFC0CBFF;
+  }
+  .box2{
+    background: #000000;
+  }
+  .box3{
+    background: #F5F5DCFF;
+  }
+  .br-2{
+    border-bottom: 1px solid black;
+  }
+}
