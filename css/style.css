@@ -40,12 +40,8 @@ a h5 {
   color: rgba(0, 0, 0, 0.37);
 }
 
-button {
-  width: 214px;
-  height: 69px;
-  background: #8E5151;
-  border-radius: 90px;
-  color: #FFFFFF;
+form {
+  outline: none;
 }
 
 .b-g-h {
@@ -173,6 +169,10 @@ footer {
   margin: 50px 0 50px;
 }
 
+.pt-b50 {
+  padding: 50px 0 50px;
+}
+
 h4 {
   font-size: 18px;
   color: #FFFFFF;
@@ -188,7 +188,6 @@ header .navbar {
   height: 100%;
 }
 header .navbar .butt {
-  outline: none;
   border-radius: 90px;
   height: 50px;
 }
@@ -263,7 +262,7 @@ body {
 }
 
 .br-1 {
-  border: 5px solid #00000080;
+  border: 5px solid #656464;
 }
 
 .section5 .mt30 {
@@ -284,6 +283,52 @@ body {
 }
 .section5 .br-2 {
   border-bottom: 1px solid black;
+}
+
+button {
+  transition: 5s;
+  width: 250px;
+  height: 80px;
+  background: #8E5151;
+  border-radius: 90px;
+}
+button h3 {
+  color: #FFFFFF;
+}
+
+button:hover {
+  animation-duration: 5s;
+  animation-name: slidein;
+  transition: 5s;
+}
+
+@keyframes slidein {
+  20% {
+    background: #8E5151;
+  }
+  40% {
+    background: rgba(255, 255, 0, 0.78);
+  }
+  60% {
+    background: rgba(0, 255, 0, 0.72);
+  }
+  80% {
+    background: red;
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.78);
+  }
+}
+.form1 {
+  background: #FFFFFF;
+  width: 400px;
+  height: 50px;
+}
+
+.form2 {
+  background: #FFFFFF;
+  width: 400px;
+  height: 208px;
 }
 
 /*# sourceMappingURL=style.css.map */
